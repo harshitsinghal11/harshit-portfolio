@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Harshit",
+  lastName: "Singhal",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Faridabad/India", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -29,7 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/harshitsinghal11",
+  },
+  {
+    name: "Instagram",
+    icon: "instagram",
+    link: "https://www.instagram.com/harshitsinghal11/",
   },
   {
     name: "LinkedIn",
@@ -39,12 +44,17 @@ const social = [
   {
     name: "X",
     icon: "x",
-    link: "",
+    link: "https://x.com/harshit__1103",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:harshitsinghal.dev@outlook.com",
+  },
+  {
+    name: "Discord",
+    icon: "discord",
+    link: "https://discord.com/users/1208756028145926176",
   },
 ];
 
@@ -52,11 +62,10 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Design engineer and builder</>,
+  headline: <>Software Engineer and Developer</>,
   subline: (
     <>
-      I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      A Tech Enthusiast Who Builds Amazing Projects, If You Interested to Know about me, My Work Experience Just Dig into in ...
     </>
   ),
 };
@@ -81,14 +90,12 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Harshit is a Faridabad-based computer science engineering student with a passion for turning complex problems into smart, efficient tech solutions. With a strong interest in coding, cybersecurity, and innovative design, his work bridges the gap between logic and creativity—spanning software development, user-focused tools, and the evolving world of technology.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: false, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
@@ -138,12 +145,16 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Class 10th",
+        description: <>Studied From Aggarwal Public School, Ballabgarh</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Class 12th",
+        description: <>Studied From Aggarwal Public School, Ballabgarh</>,
+      },
+      {
+        name: "Manav Rachna Univerisity",
+        description: <>Studing BTech in CSE</>,
       },
     ],
   },
@@ -153,7 +164,7 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        description: <>Able to Prototype Any Website, app Design</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -170,19 +181,19 @@ const about = {
           },
         ],
       },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+      // {
+      //   title: "Next.js",
+      //   description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+      //   // optional: leave the array empty if you don't want to display images
+      //   images: [
+      //     {
+      //       src: "/images/projects/project-01/cover-04.jpg",
+      //       alt: "Project image",
+      //       width: 16,
+      //       height: 9,
+      //     },
+      //   ],
+      // },
     ],
   },
 };
