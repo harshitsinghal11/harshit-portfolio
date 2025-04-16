@@ -181,6 +181,4 @@ const about = {
   },
 };
 export { person, social, newsletter, home, about };
-export const blog = []   // Add this export if it doesn't exist
-export const gallery = []; // Add this export if it doesn't exist
-export const work = [];   // Add this export if it doesn't exist
+
