@@ -1,4 +1,5 @@
 import { InlineCode } from "@/once-ui/components";
+import { display } from "./config";
 
 const person = {
   firstName: "Harshit",
@@ -13,7 +14,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -24,8 +25,6 @@ const newsletter = {
 };
 
 const social = [
-  // Links are automatically displayed.
-  // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
     icon: "github",
@@ -164,41 +163,41 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to Prototype Any Website, app Design</>,
+        description: <>Proefficeint in Prototyping Any Website, Application Designs</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "",
             alt: "Project image",
             width: 16,
             height: 9,
           },
         ],
       },
-      // {
-      //   title: "Next.js",
-      //   description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-      //   // optional: leave the array empty if you don't want to display images
-      //   images: [
-      //     {
-      //       src: "/images/projects/project-01/cover-04.jpg",
-      //       alt: "Project image",
-      //       width: 16,
-      //       height: 9,
-      //     },
-      //   ],
-      // },
+      {
+        title: "Next.js",
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
     ],
   },
 };
 
 const blog = {
+  display: false,
   label: "Blog",
   title: "Writing about design and tech...",
   description: `Read what ${person.name} has been up to recently`,
