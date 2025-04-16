@@ -1,6 +1,6 @@
 # **Build's My portfolio with Once UI's Magic Portfolio**
 
-Visit For Demo(https://demo.magic-portfolio.com).
+Visit For Demo (https://demo.magic-portfolio.com).
 
 # **Getting started**
 
