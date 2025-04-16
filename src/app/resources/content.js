@@ -180,7 +180,4 @@ const about = {
     ],
   },
 };
-const work = { display: false }; // Add this dummy
-const blog = { display: false }; // Add this dummy
-const gallery = { display: false }; // Add this dummy
-export { person, social, newsletter, home, about, work, blog, gallery};
+export { person, social, newsletter, home, about};
